@@ -17,7 +17,7 @@ def fatorial(n):
 #programa principal
 if __name__ == '__main__':
     try:
-        n = int(input('Informe um numero inteiro postivo: '))
+        n = int(input('Informe um numero inteiro positivo: '))
         
         if n >= 0:
             print(f'O fatorial de {n} é {fatorial(n)}.')
